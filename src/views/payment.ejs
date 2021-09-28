@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+  <link rel="icon" href="image/favicon.ico" />
+    <link rel="stylesheet" href="styles/payment.css">
+</head>
+
+<body>
+    <div>
+        <div class="topdiv">
+            <div class="container">
+                <div class="threepart">
+                    <div class="logopart">
+                        <div class="line">
+                            <img src="image/nykalogo.jpg" alt="logo" style="width: 100px; height: 30;">
+                        </div>
+                    </div>
+                    <div class="addresssec">
+                        <div class="divs">
+                            <ul class="logadpay">
+                                <li class="item">
+                                    <h3>1 - LOGIN</h3>
+                                    <p id="useremail"></p>
+                                    <div class="log">
+
+                                    </div>
+                                </li>
+                                <li class="item ">
+                                    <div class="log">
+                                        <h3>2 - ADDRESS</h3>
+                                        <p id="useremail"></p>
+                                    </div>
+                                </li>
+                                <li class="item hotpink ">
+                                    <div class="log">
+                                        <h3>3 - PAYMENT</h3>
+                                        <p id="useremail"></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container middiv">
+            <div class="coivdrow">
+                <div class="covidmsg">
+                    <p>Due to COVID, delivery may take longer than usual</p>
+                </div>
+            </div>
+            <div class="threerow">
+                <div class="newadd">
+                    <div class="newaddtext">
+                        <p>CHOOSE PAYMENT METHOD</p>
+                        <div>
+                            <ul>
+                                
+                                <li><button class="payment_btn" onclick="">Credit Card/Debit Card</button>
+                                </li>
+
+                                <li><button class="payment_btn" onclick="upiPayment(event)">UPI</button>
+                                </li>
+
+                                <li><button class="payment_btn" onclick="GayPayment(event)">GooglePay</button>
+                                </li>
+                               
+
+                                <li><button class="payment_btn" onclick="MobWallet_pay(event)">Mobile Wallet</button>
+                                </li>
+                                
+
+                                <li><button class="payment_btn" onclick="">Net Banking</button>
+                                </li>
+                               
+
+                                <li><button class="payment_btn" onclick="">Cash on Delivery</button>
+                                </li>
+                                
+                                <li><button class="payment_btn" onclick="">Gift Card</button>
+                                </li>
+
+                                
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="addcontent">
+                    <div class="savedaddress">
+                        <div class="innerbox">
+
+                            <form id="Credit_form">
+                                <label for="">Credit/Debit Card</label>
+                                <br><br><br>
+                                
+                                <label for="">Card Number</label>
+                                <input class="cardNum inp" type="text">
+                                <br>
+                                <label for="">Expiry</label>
+                                <br>
+                                <input class="expNum inp" type="text">
+                                <br>
+                                <input type="checkbox">
+                                <label for="">Save this card for Future</label>
+                                <br>
+                                <button class=" sub inp" onclick= "paymentNote()">
+                                    <a href="index.html">PAY NOW</a>
+                                </button>
+        
+
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="rightmostbox">
+                    <div class="shadow">
+                        <div class="righthead">1 Items in your Bag Edit</div>
+                    </div>
+                    <div class="paymentdetails">
+                        <div class="cartpaymentdetails">
+                            <div class="tbl">
+                                <div class="name">Sub Total</div>
+                                <div class="value">
+                                    <span id="totalamount">1049</span>
+                                </div>
+                            </div>
+                            <div class="tbl">
+                                <div class="name">Shipping Charge</div>
+                                <div class="value green"><span>Free</span></div>
+                            </div>
+                            <div class="tbl">
+                                <div class="name green">Discount</div>
+                                <div class="value green">
+                                    - ₹<span>0</span>
+                                </div>
+                            </div>
+                            <div class="tbl">
+                                <div class="name">Use Reward Points (2000)</div>
+                                <div class="value"><button type="button" class="applybtn">APPLY</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tbl total">
+                            <div class="name">Grand Total</div>
+                            <div class="value">
+                                <span id="gtotal">1049</span>
+                            </div>
+                        </div>
+                        <div class="payment-details-tbl prl20 payment-reward-row"></div>
+                    </div>
+
+                    <div id="payment_address">
+                        <div id="S_address">
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="lastdiv"></div>
+    </div>
+    <!-- <script src="script/address.js"></script> -->
+    <script src="script/payment.js"></script>
+</body>
+
+</html>
+
+
+
+<div id="shodow_box"></div>

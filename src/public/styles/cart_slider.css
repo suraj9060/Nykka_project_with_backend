@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1;
+    background-color: rgb(243, 243, 243);
+}
+
+#main {
+    height: 680px;
+    /* border: 2px solid red; */
+}
+
+#adv {
+    height: 300px;
+    background-size: 100%;
+    background-image: url("https://www.gaudihair.com/wp-content/uploads/2015/03/loreal-professionnel-banner-980x280-980x280.jpg");
+    width: 100%;
+}
+
+
+
+.slider {
+    width: 100%;
+    height: 280px;
+    border: 1px solid gray;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slides {
+    width: 700%;
+    height: 260px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 14.28%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    /* height: 100%; */
+
+}
+
+/* CSS for manual Transformation(Sliding Part)*/
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn {
+    border: 2px solid none;
+    background: #d386b9;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background: #fc2779;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -14.28%;
+}
+
+#radio3:checked~.first {
+    margin-left: -28.56%;
+}
+
+#radio4:checked~.first {
+    margin-left: -42.84%;
+}
+
+#radio5:checked~.first {
+    margin-left: -57.12%;
+}
+
+#radio6:checked~.first {
+    margin-left: -71.4%;
+}
+
+/* CSS for automatic Transformation (Sliding Part)*/
+
+.navigation_auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_auto div {
+    border: 2px solid none;
+    background: #d386b9;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 20px;
+}
+
+#radio1:checked~.auto-btn1 {
+    background: #fc2779;
+}
+
+#radio2:checked~.navigation_auto .auto-btn2 {
+    background: #fc2779;
+}
+
+#radio3:checked~.navigation_auto .auto-btn3 {
+    background: #fc2779;
+}
+
+#radio4:checked~.auto-btn4 {
+    background: #fc2779;
+}
+
+#radio5:checked~.auto-btn5 {
+    background: #fc2779;
+}
+
+#radio6:checked~.auto-btn6 {
+    background: #fc2779;
+}
+
+
+#all_product_h2{
+    text-align: center;
+    margin-top: 20px;
+}

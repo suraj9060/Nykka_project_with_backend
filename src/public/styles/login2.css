@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3f414d;
+    font: 14px/1.42857 Source Sans Pro, sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    background: #fff;
+    margin: 10px auto 0;
+    max-width: 360px;
+    overflow: auto;
+    border-radius: 16px 16px 0 0;
+    border: 1px solid rgba(0, 0, 0, .16);
+    min-height: 600px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.heading {
+    border-bottom: 1px solid #ebebeb;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    padding: 25px 10px 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.closebtn {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    line-height: .8;
+    padding: 2px;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+}
+
+.inputpart {
+    background-color: #f3f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    color: var(--main-color);
+    margin-bottom: 16px;
+    padding: 10px 25px 10px 5px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.detail {
+    position: relative;
+    padding: 15px 0 0;
+    margin-bottom: 10px;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.inputelem {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+    color: var(--main-color);
+    font-weight: 400;
+    outline: 0;
+    padding: 5px 0 5px 5px;
+    width: 100%;
+    transition: border-color .2s;
+}
+
+.btn {
+    background-color: #fc2779;
+    border-color: #fc2779;
+    height: 50px;
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}

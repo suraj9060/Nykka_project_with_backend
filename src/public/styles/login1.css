@@ -1,0 +1,103 @@
+body {
+    color: #3f414d;
+    font: 14px/1.42857 Source Sans Pro, sans-serif;
+    display: block;
+}
+div{
+    display: block;
+}
+
+.loginbox {
+    background: #fff;
+    margin: 10px auto 0;
+    max-width: 360px;
+    overflow: auto;
+    border-radius: 16px 16px 0 0;
+    border: 1px solid rgba(0, 0, 0, .16);
+    min-height: 600px;
+}
+
+.sectn {
+    width: 358px;
+    height: 338px;
+    display: block;
+}
+
+.heading {
+    border-bottom: 1px solid #ebebeb;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    padding: 25px 10px 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.closebtn {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    line-height: .8;
+    padding: 2px;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+}
+
+.content {
+    width: 306px;
+    padding: 0 25px;
+}
+
+.required {
+    font-size: 10px;
+    font-weight: 600;
+    right: 5px;
+    bottom: 0;
+    text-align: right;
+    text-transform: uppercase;
+    margin-left: 80%;
+}
+
+.input {
+    border: 1px solid red;
+    background-color: #f3f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    padding: 10px 25px 10px 5px;
+    width: 80%;
+    font-size: 14px;
+}
+
+.text {
+    border: 1px solid red;
+    padding-left: 10%;
+    line-height: inherit;
+}
+
+.butn {
+    margin-top: 160px;
+}
+
+.btnclick{
+    height: 50px;
+    width: 100%;
+    background-color: #fc2779;
+    border: 1px solid #fc2779;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    padding: 8px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btnclick a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}

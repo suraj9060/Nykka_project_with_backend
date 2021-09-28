@@ -1,0 +1,219 @@
+* {
+    
+    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#top1{
+    display: flex;
+    justify-content: center;
+    background-color: #3f414d;
+}
+
+#cont-1 {
+    width: 80%;
+    color: white;
+    font-weight: bolder;
+    /* background-color: #3f414d; */
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 1%;
+    padding: 3rem 0rem;
+    font-size: 0.8rem;
+}
+
+/* #cont-1 div:nth-child(2) {
+    padding: 0 3rem;
+    text-align: center;
+
+} */
+
+::placeholder {
+    color: white;
+}
+
+.IconText {
+    display: flex;
+    align-items: center;
+
+}
+
+.IconText img {
+    margin-right: 10px;
+    
+}
+
+.feedback .input {
+
+    color: white;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    width: 70%;
+
+}
+
+.feedback .send-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    width: 20%;
+
+}
+
+#top2{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+#cont-2 {
+   
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 16%);
+    grid-gap: 4%;
+    padding: 2rem 0rem;
+    color: white;
+    
+}
+
+li {
+    list-style: none;
+    padding: 0.7rem 0;
+    font-size: 0.9rem;
+    
+}
+
+.links ul li a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+ 
+   
+
+
+}
+
+.links ul li a:hover {
+    color: #fc2779;
+  
+   
+}
+
+#top3{
+    display: flex;
+    justify-content: center;
+    /* background-color: grey; */
+}
+
+
+#cont-3 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 4%;
+    text-align: center;
+    padding: 2rem 1rem;
+    
+
+
+}
+
+.cont3_divs,
+.icon {
+    display: flex;
+}
+
+.appStore {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.appStore>div {
+    display: flex;
+    margin: 3px;
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 3px
+}
+
+
+.content div {
+    margin: 15px;
+    text-align: center;
+    line-height: 2rem;
+    
+}
+.content div:last-child{
+    font-size: 0.7rem;
+}
+
+.content div:first-child {
+    border-bottom: 1px solid lightblue;
+}
+
+.cont3_last_div {
+    padding: 0.1rem;
+}
+
+.cont3_last_div div {
+    padding: 0.4rem;
+}
+
+.last-icons img {
+    margin: 0 0.3rem;
+}
+
+.content div:first-child {
+    font-weight: bold;
+}
+
+#cont-4 {
+    color: white;
+    background-color: #fc2779;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#cont-4 a {
+    margin: 1.5rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+#cont-4 p {
+    font-size: 0.8rem;
+}
+
+.c-4-links{
+    margin-bottom: 15px;
+}
+.mini-text {
+    font-size: 0.6rem;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
