@@ -1,0 +1,18 @@
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div > #thank {
+           margin-top: 0;
+            width: 400px;
+            height: 400px;
+            padding: 0;
+            
+        }
+        #del{
+            margin: 0;
+            padding: auto;
+        }
+   

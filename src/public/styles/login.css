@@ -1,0 +1,145 @@
+body {
+  background-color: #f3f3f3;
+  color: #3f414d;
+  font: 14px/1.42857 Source Sans Pro, sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.loginbox {
+  background: #fff;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  margin: 5px auto 0;
+  max-width: 360px;
+  overflow: auto;
+  border-radius: 16px 16px 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  min-height: 600px;
+}
+
+.box {
+  width: 297px;
+  width: 83%;
+  padding: 0 30px;
+  padding-bottom: 57px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginbox .box .closebtn {
+  background: none;
+  cursor: pointer;
+  padding: 2px;
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.closebtn {
+  width: 14px;
+  height: 14px;
+  border: 0;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 56px;
+  margin-bottom: 9px;
+  text-align: left;
+  text-transform: none;
+  color: #000f1d;
+  opacity: 0.92;
+}
+
+.logintext {
+  border-bottom: 1px solid rgba(0, 19, 37, 0.16);
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  color: #001325;
+  opacity: 0.92;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.imgbox {
+  margin: 25px 0;
+}
+
+.phnsec {
+  position: relative;
+}
+
+.inputbx {
+  cursor: pointer;
+  border-radius: 4px;
+  background: #fc2779;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.28px;
+  padding: 8px 16px;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.googl {
+  margin: 0 0 23px;
+  display: flex;
+  border: 1px solid rgba(0, 19, 37, 0.16);
+  border-radius: 4px;
+}
+
+.glogo {
+  width: 100%;
+  margin: 0 16px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.loginbtn {
+  font-size: 18px;
+  letter-spacing: 0.28px;
+  text-transform: none;
+  font-weight: 700;
+  padding: 8px 8px 8px 8px;
+  background: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.loginbtn a {
+  text-decoration: none;
+  color: rgba(0, 19, 37, 0.64);
+}
+
+.loginote {
+  margin-top: 23px;
+  letter-spacing: 0.58px;
+  color: #001325;
+  opacity: 0.64;
+}
+.imgbox > img {
+  width: 296px;
+  height: 160px;
+}
+.glogo > img {
+  width: 55px;
+  height: 40px;
+}

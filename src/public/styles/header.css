@@ -1,0 +1,396 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.main_body {
+    width: 100%;
+    height: 110px;
+}
+
+.headr1 {
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 /10%);
+    width: 100%;
+}
+
+#offer_banner {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+
+#offer_banner,
+.top_str_bg {
+    height: 40px;
+    background-color: #fc2779;
+    background-image: url('https://adn-static1.nykaa.com/media/wysiwyg/2021/TopStrip_Desktop_Final-21-8-21.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#top_strip,
+.txt {
+    width: 1140px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.leftdiv {
+    float: left;
+    width: 46%;
+    height: 40px;
+    margin-bottom: 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.leftdiv a {
+    color: black;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.acdet {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.rightdiv {
+    float: right;
+    padding: 0;
+    width: 44%;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.rightdiv ul {
+    height: 40px;
+}
+
+.rightDiv ul li a span {
+    font-size: 14px;
+    float: left;
+    font-family: 'SourceSansPro-Regular', sans-serif;
+    font-weight: 400;
+}
+
+.rightdiv ul li {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.rightdiv ul li a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.rightdiv ul li a:hover,
+.rightdiv ul li a span:hover,
+.catgry:hover,
+.headernav li>a:hover,
+.left_msg a:hover {
+    color: #fc2779
+}
+
+.topnxt {
+    border-bottom: solid 1px #e6dede;
+    width: 100%;
+}
+
+.tpn1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 83.2em;
+    margin: 0 auto;
+}
+
+.menu1 {
+    width: 85%;
+}
+
+#headrmenu {
+    height: 62px;
+    line-height: 39px;
+}
+
+.hdrmn {
+    display: flex;
+}
+
+.des {
+    width: 70%;
+    background-size: cover;
+    margin-top: 0.8%;
+}
+
+.menucatbrnd {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul .headernav {
+    display: inline-block;
+    height: 62px;
+    line-height: 62px;
+}
+
+.hdr {
+    padding: 0 10px;
+}
+
+.headernav li>a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #03021a;
+    margin: 0 auto;
+}
+
+.hdr li a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.catgry {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #03021a;
+    margin: 0 auto;
+}
+
+.searchdiv {
+    width: 25%;
+    height: 40px;
+    display: inline-block;
+}
+
+.searchbx {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    height: 60px;
+}
+
+.searchcont {
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(151, 151, 151, 0.1);
+    border-radius: 4px;
+}
+
+.srchre {
+    outline: none;
+    border: none;
+    padding-left: 35px;
+    background: #f4f4f4;
+    width: 100%;
+}
+.srchre::placeholder { 
+    color: gray;
+    opacity: 1; 
+  }
+
+button,
+input {
+    overflow: visible;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+}
+
+.btncs {
+    border: none;
+    background: transparent;
+    align-items: center;
+    display: inline-block;
+    cursor: default;
+    font: 400 13.3333px Arial;
+    text-shadow: none;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.acntsec {
+    display: flex;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.act {
+    display: flex;
+    margin-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: center;
+}
+
+.acnbtn {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-content: center;
+}
+
+.acntxt {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.cartbtn {
+    border: none;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.acdet {
+    height: 40px;
+}
+
+button.acnbtn {
+    margin-right: 4px;
+}
+
+.dropdwnadvice a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-left: 6%;
+}
+
+.dropdwnadvice {
+    margin-top: 1.1%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 270px;
+    right: 0;
+    margin-right: 80px;
+    width: 90%;
+    border-bottom-right-radius: 4px;
+}
+
+.headernav:hover .dropdwnadvice {
+    display: block;
+}
+
+.dropdwnadvice a img {
+    width: 240px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.beautyadvicedes {
+    font-family: 'SourceSansPro-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(4, 1, 20, 0.6);
+    text-transform: capitalize;
+    height: 18px;
+    line-height: 18px;
+}
+
+.beautyadvicehead {
+    font-family: 'SourceSansPro-Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(3, 2, 26, 0.8);
+    text-transform: uppercase;
+    height: 18px;
+    line-height: 18px;
+}
+
+.advcbox {
+    width: 240px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.acntsec:hover .acountdropdwnbox {
+    display: block;
+}
+
+.acountdropdwnbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-top: 1.2%;
+    right: 0;
+    margin-right: 5%;
+}
+
+.acntlist {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    min-width: 160px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: -1px -1px 10px 0 #a8a8a8;
+    width: 225px;
+}
+
+.listitem {
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+    align-items: center;
+}
+
+.orderlogo {
+    padding-left: 10px;
+}
+
+.acntlink {
+    display: block;
+    padding: 0 20px 0 5px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    color: #001325;
+    opacity: 92%;
+}

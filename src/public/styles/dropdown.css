@@ -1,0 +1,66 @@
+
+/* drop down css start*/
+.drop-down-menu{
+    width: 100%;
+    border-radius: 18px ;
+    overflow: hidden;
+    
+   
+}
+.drop-down-item{
+    list-style-type: none;
+   border-top: 1px solid rgb(241, 241, 241);
+   overflow:hidden;
+}
+.drop-down-btn{
+    display: block;
+    padding: 16px 20px;
+    background: rgb(243, 245, 245);
+    color: rgb(41, 37, 37);
+    position: relative;
+}
+.drop-down-btn:before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: rgb(245, 247, 247);
+    right: 20px;
+    bottom: -7px;
+    transform:rotate(45deg);
+
+}
+.drop-down-submenu{
+    background: rgb(247, 245, 245);
+    overflow: hidden;
+    transition: 0.3s;
+    max-height:0 ;
+}
+.drop-down-submenu a{
+    display: block;
+    padding: 10px 16px;
+    color: rgb(5, 5, 5);
+    font-size:14px 0;
+    margin: 4px 0;
+    position: relative;
+}
+.drop-down-submenu a:before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: rgb(199, 199, 193);
+    left: 0;
+    top: 0;
+    transition: 0.03s;
+    opacity: 0;
+}
+.drop-down-submenu a:hover:before{
+    opacity: 1;
+}
+.drop-down-item:target .drop-down-submenu{
+    max-height: 10em;
+}
+/* drop down css end*/
+
+

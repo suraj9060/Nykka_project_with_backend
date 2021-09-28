@@ -1,0 +1,27 @@
+
+
+#brand-main-contanar-text{
+  background-color: blanchedalmond;
+  width: 100%;
+  display: flex;
+  
+  
+}
+#brand-main-flex-box{
+  display: flex;
+  flex-direction: column;
+   background-color: #f9f9f9;
+  width: 100%;
+  text-align: start;
+  align-items: center;
+}
+#brand-main-contanar-text > #brand-main-flex-box >.even{
+ 
+  background-color: rgb(116, 30, 30);
+  
+}
+
+
+#brand-main-contanar-Naykka-Network{
+  width: 100%;
+ }
