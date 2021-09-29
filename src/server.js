@@ -21,7 +21,7 @@ const productController = require('./controllers/products.controller')
 
 
 app.use("/home" , indexController)
-app.use("/home/products" , productController)
+app.use("/products" , productController)
 
 
 
