@@ -11,10 +11,17 @@ router.post("", crudController.post(Product))
 
 // router.get("", crudController.get(Product))
 
+// router.get("", async (req, res) => {
+//     // const product = await Product.find().lean().exec();
+
+//     return res.render('index')
+// })
+
+
 router.get("", async (req, res) => {
     const product = await Product.find().lean().exec();
 
-    return res.render('index', {
+    return res.render('Loreal_paris', {
         product:product
     })
 })

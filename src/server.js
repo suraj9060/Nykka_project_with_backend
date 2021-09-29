@@ -18,6 +18,8 @@ app.use(express.static("./public"));
 const productController = require('./controllers/products.controller')
 
 
+app.use("/home", productController)
+
 app.use("/products" , productController)
 
 
