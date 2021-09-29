@@ -20,8 +20,8 @@ const productController = require('./controllers/products.controller')
 
 
 
-app.use("/home" , productController)
-app.use("/products" , productController)
+app.use("/home" , indexController)
+app.use("/home/products" , productController)
 
 
 
