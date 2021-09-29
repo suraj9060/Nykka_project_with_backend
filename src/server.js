@@ -10,7 +10,9 @@ const connect = () => {
 const app = express();
 app.use(express.json());
 
-app.set('view engine', 'ejs')
+// app.use(express.urlencoded());
+app.set("view engine", "ejs");
+app.use(express.static("./public"));
 
 
 const productController = require('./controllers/products.controller')

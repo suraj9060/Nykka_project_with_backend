@@ -9,11 +9,15 @@ const router = express.Router()
 
 router.post("", crudController.post(Product))
 
+// router.get("", crudController.get(Product))
 
-router.get("", crudController.post(Product))
+router.get("", async (req, res) => {
+    const product = await Product.find().lean().exec();
 
-
-
+    return res.render('index', {
+        product:product
+    })
+})
 
 
 
