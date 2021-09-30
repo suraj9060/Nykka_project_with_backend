@@ -23,6 +23,7 @@ const userController = require('./controllers/users.controller')
 
 app.use("/home" , indexController)
 app.use("/products" , productController)
+app.use("/user", userController)
 
 
 
