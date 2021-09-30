@@ -30,3 +30,15 @@ app.listen(9696, async function () {
     await connect();
     console.log("listening on port 9696");
 })
+
+
+
+
+//first_name
+//last_name
+//gender
+//gmail
+//city
+//pincode
+//password
+//array=[product_id] (default : false)

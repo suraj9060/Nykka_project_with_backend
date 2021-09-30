@@ -8,9 +8,10 @@ const usersSchema = new mongoose.Schema({
     phone_number: { type: Number, required: true },
     email: { type: String, required: true },
     gender: { type: String, required: true },
-    product_id: { type: Number, required: false },
     password: { type: String, required: true },
     address: { type: String, required: true },
+    product_id: [{type: mongoose.Schema.Types.ObjectId, ref: "product", required: false }]
+    
 });
 
 const User = mongoose.model("user", usersSchema);
