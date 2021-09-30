@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <!-- <link rel="icon" href="image/favicon.ico" /> -->
+    <link rel="stylesheet" href="/styles/login1.css">
+</head>
+
+<body>
+    <div class="loginbox">
+        <section class="sectn">
+            <header class="heading">
+                <button class="closebtn" type="button"></button>CREATE ACCOUNT
+            </header>
+            <div class="content">
+                <form action="/signup/post" method="post" id="form">
+                    <div>
+                        <input placeholder="First Name" name="first_name" type="text" class="input text" value="">
+                        <br>
+                        <input placeholder="Last Name" name="last_name" type="text" class="input text" value="">
+                        <br>
+                        <input placeholder="Gender" name=" gender" type="text" class="input text" value="">
+                        <br>
+                        <input placeholder="Email" name="email" type="email" class="input text" value="">
+                        <br>
+                        <input placeholder="Password" name="password" type="password" class="input text" value="">
+                    </div>
+                    <div class="butn">
+                        <button type="submit" class="btnclick" id="loginbtn">Proceed</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="/script/login1.js"></script>
+</body>
+
+</html>
