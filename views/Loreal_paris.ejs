@@ -28,11 +28,11 @@
 <body>
 
 
- <!-- header -->
+  <!-- header -->
 
- <%- include("./partials/header.ejs") %>
+  <%- include("./partials/header.ejs") %>
 
-<!-- header -->
+  <!-- header -->
 
   <!--image slider start here -->
 
@@ -139,7 +139,7 @@
             <a href="/products/price0-499">Rs. 0 - Rs. 499</a>
             <a href="/products/price500-999">Rs. 500 - Rs.999</a>
             <a href="/price1000-5000">Rs.1000 - Rs. 4999</a>
-            
+
           </div>
         </li>
         <li class="drop-down-item" id="item3">
@@ -174,30 +174,34 @@
     <div id="data">
 
       <% product.forEach( function(element) { %>
-        <div>
-          <img src=<%=element.image %> alt="">
-          <p>
-            <%= element.name %>
-          </p>
-          <p id="price"> ₹ <%= element.price %>
-          </p>
-          <p>
-            <%= element.rating %>
-          </p>
-          <button id="addcartbtn">♡Add to Bag</button>
-        </div>
-        <% }); %>
+      <div>
+        <img src=<%=element.image %> alt="">
+        <p>
+          <%= element.name %>
+        </p>
+        <p id="price"> ₹ <%= element.price %>
+        </p>
+        <p>
+          <%= element.rating %>
+        </p>
+        <button id="addcartbtn">♡Add to Bag</button>
+      </div>
+      <% }); %>
 
     </div>
 
 
   </div>
 
+  <!-- footer -->
+  <%- include("./partials/footer.ejs") %>
+  <!-- footer -->
 
   <script src="../public/script/slider_baner.js"></script>
   <script src="../public/script/homelogin.js"></script>
 
   <!-- <script src="../public/script/Loreal.js"></script> -->
+
 
 
 
