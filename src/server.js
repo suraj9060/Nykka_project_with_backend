@@ -10,7 +10,7 @@ const connect = () => {
 const app = express();
 app.use(express.json());
 
-// app.use(express.urlencoded());
+app.use(express.urlencoded());
 app.set("view engine", "ejs");
 app.use(express.static("./public"));
 
@@ -22,7 +22,8 @@ const userController = require('./controllers/users.controller')
 
 
 app.use("/home" , indexController)
-app.use("/products" , productController)
+app.use("/products", productController)
+
 app.use("/users", userController)
 
 

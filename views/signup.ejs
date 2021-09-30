@@ -17,26 +17,27 @@
                 <button class="closebtn" type="button"></button>CREATE ACCOUNT
             </header>
             <div class="content">
-                <form action="/signup/post" method="post" id="form">
-                    <div>
-                        <input placeholder="First Name" name="first_name" type="text" class="input text" value="">
-                        <br>
-                        <input placeholder="Last Name" name="last_name" type="text" class="input text" value="">
-                        <br>
-                        <input placeholder="Gender" name=" gender" type="text" class="input text" value="">
-                        <br>
-                        <input placeholder="Email" name="email" type="email" class="input text" value="">
-                        <br>
-                        <input placeholder="Password" name="password" type="password" class="input text" value="">
-                    </div>
-                    <div class="butn">
-                        <button type="submit" class="btnclick" id="loginbtn">Proceed</button>
-                    </div>
+
+                <form action="/users/post" method="POST" id="form">
+                   
+                        <input placeholder="First Name" name="first_name" type="text" class="input text">
+                        <br><br>
+                        <input placeholder="Last Name" name="last_name" type="text" class="input text">
+                        <br><br>
+                        <input placeholder="Gender" name="gender" type="text" class="input text">
+                        <br><br>
+                        <input placeholder="Email" name="email" type="email" class="input text">
+                        <br><br>
+                        <input placeholder="Password" name="password" type="password" class="input text">
+                        <br><br>
+
+                        <button class="btnclick" id="loginbtn">Preceed</button>
+            
                 </form>
             </div>
         </section>
     </div>
-    <script src="/script/login1.js"></script>
+    <!-- <script src="/script/login1.js"></script> -->
 </body>
 
 </html>
