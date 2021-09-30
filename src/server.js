@@ -16,12 +16,14 @@ app.use(express.static("./public"));
 
 const indexController = require("./controllers/index.controller")
 const productController = require('./controllers/products.controller')
+const userController = require('./controllers/users.controller')
 
 
 
 
 app.use("/home" , indexController)
 app.use("/products" , productController)
+app.use("/users", userController)
 
 
 
@@ -30,3 +32,15 @@ app.listen(9696, async function () {
     await connect();
     console.log("listening on port 9696");
 })
+
+
+
+
+//first_name
+//last_name
+//gender
+//gmail
+//city
+//pincode
+//password
+//array=[product_id] (default : false)
