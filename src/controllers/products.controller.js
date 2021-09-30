@@ -2,7 +2,7 @@ const express = require('express');
 
 const Product = require('../models/products.model');
 
-const user = require('../models/users.model')
+const User = require('../models/users.model')
 
 const crudController = require('./crud.controller')
 

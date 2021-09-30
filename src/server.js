@@ -16,6 +16,7 @@ app.use(express.static("./public"));
 
 const indexController = require("./controllers/index.controller")
 const productController = require('./controllers/products.controller')
+const userController = require('./controllers/users.controller')
 
 
 
