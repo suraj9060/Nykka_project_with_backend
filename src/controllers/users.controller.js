@@ -6,10 +6,10 @@ const router = express.Router()
 
 
 router.get("/login", async (req, res) => {
-    // const user = await User.find().lean().exec();
+     const user = await User.find().lean().exec();
 
-    return res.render('login', {
-        // user:user
+    return res.render('login1', {
+        user:user
     })
 });
 
