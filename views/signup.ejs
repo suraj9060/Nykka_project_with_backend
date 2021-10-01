@@ -18,21 +18,33 @@
             </header>
             <div class="content">
 
-                <form action="/users/post" method="POST" id="form">
-                   
-                        <input placeholder="First Name" name="first_name" type="text" class="input text">
-                        <br><br>
-                        <input placeholder="Last Name" name="last_name" type="text" class="input text">
-                        <br><br>
-                        <input placeholder="Gender" name="gender" type="text" class="input text">
-                        <br><br>
-                        <input placeholder="Email" name="email" type="email" class="input text">
-                        <br><br>
-                        <input placeholder="Password" name="password" type="password" class="input text">
-                        <br><br>
+                <span class="already_account">
+                    <h4>Already have an account? <a href="">Sign in</a> </h4>
+                </span>
 
-                        <button class="btnclick" id="loginbtn">Preceed</button>
-            
+                <form action="/users/post" method="POST" id="form">
+
+                    <div class="signup_f_name_l_name">
+                        <input placeholder="First Name" name="first_name" type="text" class="input text">
+
+                        <input placeholder="Last Name" name="last_name" type="text" class="input text">
+                    </div>
+
+                    <div class="signup_mobile_gender">
+                        <input placeholder="Mobile" name="mobile" type="number" class="input text">
+
+                        <input placeholder="Gender" name="gender" type="text" class="input text">
+                    </div>
+
+
+
+                    <input placeholder="Email" name="email" type="email" class="input text">
+
+                    <input placeholder="Password" name="password" type="password" class="input text">
+
+
+                    <button class="btnclick" id="loginbtn">Create Account</button>
+
                 </form>
             </div>
         </section>
