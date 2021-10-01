@@ -24,24 +24,15 @@ router.get("/signin", async (req, res) => {
 router.post("/sign/status", async (req, res) => {
     const password = req.body.password;
     const email = req.body.email;
-<<<<<<< HEAD
     const user = await User.findOne({ email:email ,password: password}).lean().exec();
     
    
-=======
-    const user = await User.find({password: password}).lean().exec();
-
->>>>>>> 27898d754c4da4070531b5c8dfbdb13864b709fa
     if (user === null) {
        return res.status(404).render("error")
     } else {
        return res.redirect("/home")
     }
-<<<<<<< HEAD
-
-=======
    
->>>>>>> 27898d754c4da4070531b5c8dfbdb13864b709fa
 })
 
 module.exports = router;
