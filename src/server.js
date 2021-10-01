@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+
 const connect = () => {
   console.log("connection successfull");
   return mongoose.connect(
@@ -28,14 +29,3 @@ app.listen(9696, async function () {
   await connect();
   console.log("listening on port 9696");
 });
-
-//first_name
-//last_name
-//gender
-//gmail
-//city
-//pincode
-//password
-//array=[product_id] (default : false)
-// const bodyParser = require("body-parser");
-
