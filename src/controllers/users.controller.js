@@ -16,9 +16,14 @@ router.get("/signup", async (req, res) => {
     return res.render('signup')
 });
 
+router.get("/signin", async (req, res) => {
+    return res.render('signin')
+});
+
 
 router.get("/signin", async (req, res) => {
-    const user = await User.find({password: "1234"}).lean().exec();
+    const password = req.body.password;
+    const user = await User.find({password: password}).lean().exec();
 
     return res.status(201).send({user});
     // return res.render('signin', {
