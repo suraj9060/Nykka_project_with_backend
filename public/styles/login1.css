@@ -3,7 +3,8 @@ body {
     font: 14px/1.42857 Source Sans Pro, sans-serif;
     display: block;
 }
-div{
+
+div {
     display: block;
 }
 
@@ -14,7 +15,9 @@ div{
     overflow: auto;
     border-radius: 16px 16px 0 0;
     border: 1px solid rgba(0, 0, 0, .16);
-    min-height: 600px;
+    min-height: 90vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4rem grey;
 }
 
 .sectn {
@@ -28,7 +31,7 @@ div{
     font-size: 16px;
     font-weight: 600;
     margin-right: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 1rem;
     margin-left: 10px;
     padding: 25px 10px 15px;
     position: relative;
@@ -67,8 +70,8 @@ div{
     background-color: #f3f3f3;
     border: 1px solid #ebebeb;
     border-radius: 2px;
-    padding: 10px 25px 10px 5px;
-    width: 80%;
+    padding: 0.6rem;
+    width: 85%;
     font-size: 14px;
 }
 
@@ -82,7 +85,7 @@ div{
     margin-top: 160px;
 }
 
-.btnclick{
+.btnclick {
     height: 50px;
     width: 100%;
     background-color: #fc2779;
@@ -96,8 +99,46 @@ div{
     text-align: center;
     text-transform: uppercase;
 }
-.btnclick a{
+
+.btnclick a {
     color: #fff;
     cursor: pointer;
     text-decoration: none;
+}
+
+.signup_f_name_l_name,
+.signup_mobile_gender {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.signup_f_name_l_name input,
+.signup_mobile_gender input {
+    margin: 0 0.2rem;
+}
+
+#form input {
+    margin-bottom: 2.5rem;
+    border-radius: 1rem;
+
+
+}
+
+#form input:hover {
+    transform: scale(1.1)
+}
+
+#form:hover button:hover {
+    transform: scale(1.1);
+
+}
+
+#form button {
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.already_account {
+    text-align: center;
 }
