@@ -21,7 +21,7 @@ router.get("/signin", async (req, res) => {
     return res.render('signin')
 });
 
-router.post("/sign/status", async (req, res) => {
+router.post("/signin/status", async (req, res) => {
     const password = req.body.password;
     const email = req.body.email;
     const user = await User.findOne({ email:email ,password: password}).lean().exec();
