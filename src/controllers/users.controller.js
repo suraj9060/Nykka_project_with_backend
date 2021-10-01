@@ -21,14 +21,17 @@ router.get("/signin", async (req, res) => {
 });
 
 
-router.get("/signin", async (req, res) => {
+router.get("/signin/status", async (req, res) => {
     const password = req.body.password;
     const user = await User.find({password: password}).lean().exec();
 
+    if (user === null) {
+       return res.status(404).render("not found")
+    } else {
+       return res.redirect("/home")
+    }
     return res.status(201).send({user});
-    // return res.render('signin', {
-    //     user:user
-    // })
+   
 })
 
 module.exports = router;
