@@ -17,11 +17,14 @@ div {
 .container {
     background: #fff;
     margin: 10px auto 0;
-    max-width: 360px;
+    max-width: 30%;
     overflow: auto;
     border-radius: 16px 16px 0 0;
     border: 1px solid rgba(0, 0, 0, .16);
-    min-height: 600px;
+    min-height: 90vh;
+    border-radius: 20px ;
+    box-shadow: 0px 0px 6rem grey;
+    padding: 1.5rem;
 }
 
 .content {
@@ -62,14 +65,17 @@ div {
     width: 100%;
     font-size: 14px;
     text-align: center;
+  
 }
 
 .detail {
     position: relative;
     padding: 15px 0 0;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
     flex: 1;
     margin-top: 10px;
+
+
 }
 
 .inputelem {
@@ -82,6 +88,12 @@ div {
     padding: 5px 0 5px 5px;
     width: 100%;
     transition: border-color .2s;
+    border: 1px solid #fc2779;
+    margin-bottom: 2rem;
+    border-radius: 20px ;
+    padding: 1rem;
+    
+    
 }
 
 .btn {
@@ -89,9 +101,18 @@ div {
     border-color: #fc2779;
     height: 50px;
     width: 100%;
+    border-radius: 20px ;
 }
-.btn{
+
+.btn {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+}
+.inputelem:hover {
+    transform: scale(1.1)
+}
+
+button:hover {
+    transform: scale(1.1)
 }
