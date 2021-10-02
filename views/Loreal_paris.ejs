@@ -17,30 +17,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/styles/header.css" />
+
     <link rel="stylesheet" href="/styles/navbarbrand.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
-
-
     <link rel="stylesheet" href="/styles/cart_slider.css">
-
-
 
 </head>
 
 <body>
-
-
   <!-- header -->
-
   <%- include("./partials/header.ejs") %>
-
     <!-- header -->
 
     <!--image slider start here -->
 
-
     <div id="main">
-
       <div class="slider">
         <div class="slides">
           <!--radio btn start here -->
@@ -110,16 +101,10 @@
 
       <h2 id="all_product_h2">ALL PRODUCTS</h2>
 
-
-
-
       <script src="script/cart_slider.js"></script>
     </div>
 
     <script src="slider.js"></script>
-
-
-
 
     <div id="main-cont">
       <div id="left_panel">
@@ -170,11 +155,7 @@
         <!-- drop down hide and show end-->
       </div>
 
-
-
-
       <div id="data">
-
         <% product.forEach( function(element) { %>
           <div>
             <img src=<%=element.image %> alt="">
@@ -182,37 +163,20 @@
               <%= element.name %>
             </p>
             <p id="price">
-               ₹ <%= element.price %>
+              ₹ <%= element.price %>
             </p>
             <p>
               <%= element.rating %>
             </p>
             <button id="addcartbtn">♡Add to Bag</button>
-                                   
-
           </div>
-        <% }); %>
-
-
+          <% }); %>
       </div>
-
-
     </div>
-
 
     <script src="../public/script/slider_baner.js"></script>
     <script src="../public/script/homelogin.js"></script>
-
     <script src="../public/script/Loreal.js"></script>
-
-
-
-
-
-
-
-
-
 
 </body>
 
