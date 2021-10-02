@@ -27,7 +27,7 @@ app.use("/home", indexController);
 app.use("/products", productController);
 
 app.use("/users", userController);
-app.use("/cart", cartController);
+
 
 app.use("/home/products", cartController);
 
