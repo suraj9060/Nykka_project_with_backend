@@ -31,9 +31,7 @@ router.post("/signin/status", async (req, res) => {
     if (user === null) {
        return res.status(404).render("error")
     } else {
-        return res.render("index", {
-          name: user.first_name
-       })
+        return res.render("index")
     }
    
 })
