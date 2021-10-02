@@ -20,7 +20,8 @@ const indexController = require("./controllers/index.controller");
 const productController = require("./controllers/products.controller");
 const userController = require("./controllers/users.controller");
 const cartController = require("./controllers/cart.controller")
-
+const addressController = require("./controllers/address.controller")
+const paymentController = require("./controllers/payment.controller")
 
 
 app.use("/home", indexController);
@@ -28,8 +29,11 @@ app.use("/products", productController);
 
 app.use("/users", userController);
 
-
 app.use("/home/products", cartController);
+
+app.use("/cart", addressController);
+app.use("/address", paymentController);
+
 
 app.listen(9696, async function () {
   await connect();
