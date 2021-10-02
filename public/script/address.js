@@ -35,7 +35,7 @@ function confirmpayment(event) {
             return
         } else {
             localStorage.setItem('addressdetail', JSON.stringify(arr))
-            window.location.href = 'payment.html'
+            window.location.href = 'payment.ejs'
         }
      }
 }

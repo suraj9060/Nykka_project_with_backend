@@ -22,6 +22,7 @@ const userController = require("./controllers/users.controller");
 const cartController = require("./controllers/cart.controller")
 const addressController = require("./controllers/address.controller")
 const paymentController = require("./controllers/payment.controller")
+const thankuController = require("./controllers/thanku.controller")
 
 
 app.use("/home", indexController);
@@ -33,6 +34,7 @@ app.use("/home/products", cartController);
 
 app.use("/cart", addressController);
 app.use("/address", paymentController);
+app.use("/payment", thankuController);
 
 
 app.listen(9696, async function () {
