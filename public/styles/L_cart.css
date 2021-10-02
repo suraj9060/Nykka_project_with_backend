@@ -1,7 +1,6 @@
 * {
     /* border: 1px solid red; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 body {
@@ -20,13 +19,11 @@ body {
     margin: 0 auto 20px auto;
 }
 
-
 #cart_item {
     width: 100%;
     display: flex;
     flex-direction: column;
     grid-gap: 10%;
-
 }
 
 #img_div {
@@ -34,23 +31,18 @@ body {
     width: 30%;
     margin-left: -1 rem;
     margin-right: 20px;
-
 }
-
 
 #cart_item>div {
     height: 140px;
     border: 1px solid rgb(223, 219, 219);
     display: flex;
     flex-direction: row;
-
 }
 
 #cart_item>div:hover {
     box-shadow: 0px 0px 3px grey;
 }
-
-
 
 img {
     width: 100%;
@@ -62,14 +54,11 @@ img {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 40px;
-
 }
-
 
 #price_head {
     font-weight: bolder;
     margin-top: 1rem;
-
 }
 
 #total_d {
@@ -81,9 +70,8 @@ img {
 
 #total_d div {
     display: flex;
+    height: 50px;
     justify-content: space-between;
-
-
 }
 
 #coupon-div {
@@ -91,26 +79,26 @@ img {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(211, 207, 207);
-
 }
 
 #code {
+    outline: none;
     width: 70%;
     margin-right: 0.7rem;
     border: 1px solid #fc2779;
     border-radius: 2px;
     height: 1.5rem;
-
 }
 
 #code::placeholder {
     color: rgb(194, 192, 192);
-
 }
 
 #price_detail {
     background-color: white;
-    height: 100vh;
+    width: 100%;
+    height: 540px;
+    padding: 3%;
 }
 
 #nyka-add-30 img {
@@ -126,12 +114,7 @@ img {
 #price_detail button:hover {
     background-color: #fc2779;
     color: white;
-
 }
-
-
-
-
 
 #checkOut {
     width: 100%;
@@ -145,20 +128,17 @@ img {
     transition: all .4s ease-in-out;
 }
 
-
 #checkOut a {
     text-decoration: none;
     color: #fc2779;
-
 }
 
 #total_d p {
-    margin: 1.5rem;
+    margin: 2% 1%;
 }
 
 #g_total_div {
     border-top: 1px solid rgb(211, 207, 207);
-    ;
     font-weight: bolder;
     font-size: 1.5rem;
 }
@@ -167,13 +147,10 @@ img {
     margin-top: 25px;
 }
 
-
 .p_apply_coupon {
     font-size: 0.8rem;
     font-weight: bolder;
 }
-
-
 
 .apply_btn {
     height: 27px;
