@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/styles/navbarbrand.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="/styles/cart_slider.css">
+    <link rel="stylesheet" href="/styles/chat.css">
 
 </head>
 
@@ -168,17 +169,12 @@
             <p>
               <%= element.rating %>
             </p>
-<<<<<<< HEAD
-            <button id="addcartbtn" onclick="window.location.href = '/products/<%= element._id %>'">♡Add to Bag</button>
-                                   
-
-=======
             <button id="addcartbtn">♡Add to Bag</button>
->>>>>>> 099b9214f386756052a06114fd074e69fee3ef19
           </div>
           <% }); %>
       </div>
     </div>
+    <%- include("./partials/chat.ejs") %>
 
     <script src="../public/script/slider_baner.js"></script>
     <script src="../public/script/homelogin.js"></script>
