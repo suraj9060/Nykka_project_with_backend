@@ -4,13 +4,7 @@ const User = require('../models/users.model');
 const crudController = require('./crud.controller');
 const router = express.Router();
 
-const User = require('../models/users.model')
 const Cart = require('../models/cart.model')
-
-const crudController = require('./crud.controller')
-
-const router = express.Router()
-
 router.post("", crudController.post(Product))
 
 // router.get("", crudController.get(Product))
@@ -48,7 +42,7 @@ router.get("/category/mekup", async (req, res) => {
     });
 });
 
-router.get("/category/mekup", async (req, res) => {
+router.get("/category/men", async (req, res) => {
     const product = await Product.find({ category: "men" }).lean().exec();
 
     return res.render('Loreal_paris', {
@@ -86,14 +80,18 @@ router.get("/price1000-5000", async (req, res) => {
 //routes for Cart
 
 router.get("/:id", async (req, res) => {
-    const cart = await Cart.find().lean().exec();
     let id = req.params.id
-    cart.push(id)
-    const cart1 = await Cart.insertMany({ name: cart });
-    console.log(cart);
+    const product = await Product.findById(id);
     
+    const cart = await Cart.insertMany({name:product.name , price:product.price, image:product.image});
+
+    // res.render("L_cart", {
+    //     cart: cart
+    // })
     return res.redirect('/products')
 })
+
+
 
 
 module.exports = router;

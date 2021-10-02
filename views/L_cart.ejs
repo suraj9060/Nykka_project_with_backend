@@ -16,6 +16,19 @@
         <div id="cart_div">
             <div id="cart_head">Shopping Bag</div>
             <div id="cart_item">
+                <% cart.forEach( function(element) { %>
+                <div>
+
+                    <div id="img_div">
+                        <img src=<%=element.image %> alt="">
+                    </div>
+                    <div>
+                        <p><%= element.name %></p>
+                        <p> ₹ <%= element.price %></p>
+                    </div>
+                
+                </div>
+                <% }); %>
             </div>
         </div>
         <div id="price_detail">
