@@ -24,13 +24,16 @@ router.get("/signin", async (req, res) => {
 router.post("/signin/status", async (req, res) => {
     const password = req.body.password;
     const email = req.body.email;
+    
     const user = await User.findOne({ email:email ,password: password}).lean().exec();
     
    
     if (user === null) {
        return res.status(404).render("error")
     } else {
-       return res.redirect("/home")
+        return res.render("index", {
+          name: user.first_name
+       })
     }
    
 })
