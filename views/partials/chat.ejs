@@ -1,0 +1,27 @@
+<button class="open-button" onclick="openForm()">
+    <div class="chat-bx">
+        <div class="logo"></div>
+        <p>How may we help you</p>
+    </div>
+</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="" class="form-container">
+        <div class="chat-header">
+            <h1>How may we help you</h1>
+            <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+        </div>
+
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+    </form>
+</div>
+
+<script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+</script>

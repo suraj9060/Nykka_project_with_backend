@@ -1,0 +1,84 @@
+.open-button {
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 1px;
+    right: 28px;
+    width: 25%;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 24px;
+    z-index: 9;
+    width: 35%;
+}
+
+.form-container {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.logo {
+    width: 26px;
+    height: 24px;
+    display: inline-block;
+    background: url('https://www.nykaa.com/assets/desktop/images/chat_logo.svg') no-repeat 0 0;
+    position: relative;
+}
+
+.chat-bx {
+    padding-left: 5%;
+    display: flex;
+    gap: 5%;
+}
+
+.chat-bx p {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.chat-header {
+    border-radius: 4px;
+    padding: 0 3%;
+    background-color: #3b5268;
+    display: flex;
+    gap: 25%;
+}
+
+.chat-header button{
+    background-color: #3b5268;
+    border: none;
+    color: white;
+}
+
+.chat-header h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
