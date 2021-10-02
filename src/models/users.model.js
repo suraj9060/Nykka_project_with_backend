@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 
 const productController = require('../controllers/products.controller')
 
-
 const usersSchema = new mongoose.Schema({
 
     first_name: { type: String, required: true },
@@ -22,7 +21,3 @@ const usersSchema = new mongoose.Schema({
 const User = mongoose.model("user", usersSchema);
 
 module.exports = User;
-
-
-
- // address: { type: String, required: true },

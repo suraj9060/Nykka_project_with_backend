@@ -20,10 +20,15 @@ const indexController = require("./controllers/index.controller");
 const productController = require("./controllers/products.controller");
 const userController = require("./controllers/users.controller");
 const cartController = require("./controllers/cart.controller")
+<<<<<<< HEAD
+=======
+
+>>>>>>> a2a10c3ded336baca5c9b0d0df69af963a6967e1
 app.use("/home", indexController);
 app.use("/products", productController);
 
 app.use("/users", userController);
+app.use("/cart", cartController);
 
 app.use("/home/products", cartController);
 
