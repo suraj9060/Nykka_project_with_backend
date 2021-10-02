@@ -10,6 +10,11 @@ body {
     margin-top: 0;
 }
 
+button a{
+    text-decoration: none;
+    color: white;
+}
+
 .topdiv {
     padding-right: 15px;
     padding-left: 15px;
