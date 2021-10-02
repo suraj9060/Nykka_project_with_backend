@@ -3,6 +3,7 @@ const express = require('express');
 const Product = require('../models/products.model');
 
 const User = require('../models/users.model')
+const Cart = require('../models/cart.model')
 
 const crudController = require('./crud.controller')
 
@@ -86,5 +87,20 @@ router.get("/price1000-5000", async (req, res) => {
         product:product
     })
 })
+
+
+
+//routes for Cart
+
+router.get("/:id", async (req, res) => {
+    const cart = await Cart.find().lean().exec();
+    let id = req.params.id
+    cart.push(id)
+    const cart1 = await Cart.insertMany({ name: cart });
+    console.log(cart);
+    
+    return res.redirect('/products')
+})
+
 
 module.exports = router;
