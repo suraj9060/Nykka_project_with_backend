@@ -8,7 +8,6 @@ const crudController = require('./crud.controller')
 
 const router = express.Router()
 
-
 router.post("", crudController.post(Product))
 
 // router.get("", crudController.get(Product))
@@ -20,7 +19,6 @@ router.get("", async (req, res) => {
         product:product
     })
 })
-
 
 //Sorting by Categories
 
@@ -62,11 +60,6 @@ router.get("/category/mekup", async (req, res) => {
     })
 })
 
-
-
-
-
-
 //Sorting by Price
 router.get("/price0-499", async (req, res) => {
     const product = await Product.find( {$and : [{price:{$lt:500}}, {price:{$gt:0}}]}).sort({"price": 1}).lean().exec();
@@ -77,7 +70,6 @@ router.get("/price0-499", async (req, res) => {
     })
 })
 
-
 router.get("/price500-999", async (req, res) => {
     const product = await Product.find( {$and : [{price:{$lt:999}}, {price:{$gt:500}}]}).sort({"price": 1}).lean().exec();
 
@@ -87,24 +79,12 @@ router.get("/price500-999", async (req, res) => {
     })
 })
 
-
 router.get("/price1000-5000", async (req, res) => {
     const product = await Product.find( {$and : [{price:{$lt:5000}}, {price:{$gt:1000}}]}).sort({"price": 1}).lean().exec();
 
-    
     return res.render('Loreal_paris', {
         product:product
     })
 })
-
-
-
-
-
-
-
-
-
-
 
 module.exports = router;

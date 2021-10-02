@@ -19,11 +19,13 @@ app.use(express.static("./public"));
 const indexController = require("./controllers/index.controller");
 const productController = require("./controllers/products.controller");
 const userController = require("./controllers/users.controller");
+const cartController = require("./controllers/cart.controller")
 
 app.use("/home", indexController);
 app.use("/products", productController);
 
 app.use("/users", userController);
+app.use("/cart", cartController);
 
 app.listen(9696, async function () {
   await connect();
