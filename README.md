@@ -9,7 +9,7 @@
 # Features
 1. This app gets you the latest products and offers.
 2. It has a feature of authentication, user can login, sign up, add products to cart, can see total amount to be payed.
-3. Anyone can shop by brands names.
+3. Anyone can shop by brands names as well as catogary.
 4. Multiple payement options like upi, credit card, debit card
 5. Seperate address page and payement page are there.
 6. It has also inbuilt page of brand where you can explore brand wise product.
@@ -28,7 +28,7 @@
 2. Fonts: [Google Fonts](https://fonts.google.com/)
 3. Icons: [Font Awesome](https://fontawesome.com/)
 
-## [Project Link](https://sanketnchaware.github.io/Nykaa_Project/)
+
 
 # Some Snapshots of Website:-
 ![Screenshot (408)](https://user-images.githubusercontent.com/68117560/133995474-f8c726a4-0a58-4583-85cf-8ee9a6e7a1a8.png)
