@@ -74,6 +74,7 @@
     background-color: #3b5268;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .chat-header h1 {
