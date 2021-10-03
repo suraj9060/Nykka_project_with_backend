@@ -75,8 +75,6 @@ router.get("/price1000-5000", async (req, res) => {
     });
 });
 
-
-
 //routes for Cart
 
 router.get("/:id", async (req, res) => {
@@ -90,8 +88,5 @@ router.get("/:id", async (req, res) => {
     // })
     return res.redirect('/products')
 })
-
-
-
 
 module.exports = router;
