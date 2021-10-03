@@ -119,14 +119,20 @@
                 </div>
                 <div class="rightmostbox">
                     <div class="shadow">
-                        <div class="righthead">1 Items in your Bag Edit</div>
+                        <% let total_item = cart.length %>
+                        <% let total = 0  %>
+                        <%  for (let i = 0; i < cart.length; i++) {  %>
+                         <%    total = total + cart[i].price        %>
+         
+                         <%  }   %>
+                        <div class="righthead"><%= total_item %> Items in your Bag </div>
                     </div>
                     <div class="paymentdetails">
                         <div class="cartpaymentdetails">
                             <div class="tbl">
                                 <div class="name">Sub Total</div>
                                 <div class="value">
-                                    <span id="totalamount">1049</span>
+                                    <span id="totalamount">₹ <%= total %></span>
                                 </div>
                             </div>
                             <div class="tbl">
@@ -148,7 +154,7 @@
                         <div class="tbl total">
                             <div class="name">Grand Total</div>
                             <div class="value">
-                                <span id="gtotal">1049</span>
+                                <span id="gtotal">₹ <%= total %></span>
                             </div>
                         </div>
                         <div class="payment-details-tbl prl20 payment-reward-row"></div>
