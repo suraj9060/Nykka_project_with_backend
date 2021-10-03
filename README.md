@@ -32,9 +32,16 @@
 
 
 # Some Snapshots of Website:-
-![Screenshot (408)](https://user-images.githubusercontent.com/68117560/133995474-f8c726a4-0a58-4583-85cf-8ee9a6e7a1a8.png)
 
-![Screenshot (412)](https://user-images.githubusercontent.com/68117560/133996420-7da769e9-be82-402f-aa91-bb5bf5c09710.png)
-![Screenshot (411)](https://user-images.githubusercontent.com/68117560/133996426-bd87705e-05e9-4207-8696-15a54006b7f6.png)
-![Screenshot (409)](https://user-images.githubusercontent.com/68117560/133996427-a223e132-46cc-4cab-b638-d277dbf1ea15.png)
-![Screenshot (356)](https://user-images.githubusercontent.com/87435542/135758915-eae1d2c0-96c5-4f8e-83eb-74e6e6594598.png)
+![Homepg](https://user-images.githubusercontent.com/58744974/135759931-1c43b71f-514c-4d71-b95f-164059f903ba.jpg)
+
+![acnt](https://user-images.githubusercontent.com/58744974/135760010-c817a14c-c36c-4ef7-94c2-c5dece25accc.jpg)
+
+![product](https://user-images.githubusercontent.com/58744974/135760068-3742f04a-3e32-4680-b19f-2fc1479032b5.jpg)
+
+![bag](https://user-images.githubusercontent.com/58744974/135760150-fb76cde2-8562-4a26-a8bb-f1dc0a282270.jpg)
+
+![pay](https://user-images.githubusercontent.com/58744974/135760160-d95b779a-c19b-451d-8068-5365b957d4bb.jpg)
+
+
+
