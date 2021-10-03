@@ -1,5 +1,6 @@
 # Nykaa clone
-### Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 76 offline stores. It sells products which are manufactured in India as well as internationally. In 2015, the company expanded from online-only to an omnichannel model and began selling products apart from beauty. In 2020, it retails over 2,000 brands and 200,000 products across its platforms.
+### Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 76 offline stores. It sells products which are manufactured in India as well as internationally. In 2015, the company expanded from online-only to an omnichannel model and began selling products apart from
+ beauty. In 2020, it retails over 2,000 brands and 200,000 products across its platforms.
 # Team Members
 1. Sanket Chaware
 2. Sagar Kurewar
@@ -35,3 +36,4 @@
 ![Screenshot (412)](https://user-images.githubusercontent.com/68117560/133996420-7da769e9-be82-402f-aa91-bb5bf5c09710.png)
 ![Screenshot (411)](https://user-images.githubusercontent.com/68117560/133996426-bd87705e-05e9-4207-8696-15a54006b7f6.png)
 ![Screenshot (409)](https://user-images.githubusercontent.com/68117560/133996427-a223e132-46cc-4cab-b638-d277dbf1ea15.png)
+![Screenshot (356)](https://user-images.githubusercontent.com/87435542/135758915-eae1d2c0-96c5-4f8e-83eb-74e6e6594598.png)
