@@ -23,7 +23,7 @@ function upiPayment(event) {
     <br>
    
     <button class=" sub inp">
-        <a href="thankyou.html">PAY NOW</a>
+        <a href="#">PAY NOW</a>
     </button>
 
 </form>`
@@ -44,7 +44,7 @@ function GayPayment(event) {
     <br>
    
     <button class=" sub inp">
-        <a href="thankyou.html">PAY NOW</a>
+        <a href="">PAY NOW</a>
     </button>
 
 </form>`
@@ -71,7 +71,7 @@ function MobWallet_pay(event) {
     ">
     </div>
     <button class=" sub inp">
-        <a href="thankyou.html">Connect Paytm Wallet</a>
+        <a href="">Connect Paytm Wallet</a>
     </button>
 
     </div>
