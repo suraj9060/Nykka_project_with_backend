@@ -19,9 +19,15 @@
 <script>
     function openForm() {
         document.getElementById("myForm").style.display = "block";
+        document.getElementById('main_container').style.filter = 'blur(4px)'
+        document.getElementById('blurr1').style.filter = 'blur(4px)'
+        document.getElementById('blurnav').style.filter = 'blur(4px)'
     }
 
     function closeForm() {
         document.getElementById("myForm").style.display = "none";
+        document.getElementById('main_container').style.filter = 'blur(0)'
+        document.getElementById('blurr1').style.filter = 'blur(0)'
+        document.getElementById('blurnav').style.filter = 'blur(0)'
     }
 </script>
