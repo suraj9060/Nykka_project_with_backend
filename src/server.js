@@ -37,7 +37,7 @@ app.use("/address", paymentController);
 app.use("/payment", thankuController);
 
 
-app.listen(9696, async function () {
+app.listen(process.env.PORT || 9696, async function () {
   await connect();
   console.log("listening on port 9696");
 });
