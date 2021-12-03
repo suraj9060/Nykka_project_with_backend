@@ -25,7 +25,7 @@ const paymentController = require("./controllers/payment.controller")
 const thankuController = require("./controllers/thanku.controller")
 
 
-app.use("/home", indexController);
+app.use("/", indexController);
 app.use("/products", productController);
 
 app.use("/users", userController);
