@@ -5,7 +5,7 @@ const router = express.Router();
 router.post("/post", async (req, res) => {
     const user = await User.create(req.body);
 
-    res.redirect("/home");
+    res.redirect("/");
     return res.status(201).send({ user });
 });
 
