@@ -9,4 +9,5 @@
      }
  }, 3000);
 
+
   //script for automatic sliding effect end
