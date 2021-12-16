@@ -27,11 +27,8 @@ const thankuController = require("./controllers/thanku.controller")
 
 app.use("/", indexController);
 app.use("/products", productController);
-
 app.use("/users", userController);
-
 app.use("/home/products", cartController);
-
 app.use("/cart", addressController);
 app.use("/address", paymentController);
 app.use("/payment", thankuController);

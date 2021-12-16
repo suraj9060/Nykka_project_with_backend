@@ -21,11 +21,14 @@
 
 <body>
   <!-- header -->
-  <%- include("./partials/header.ejs") %>
-    <!-- header -->
+  <!-- <div id="blurnav"> -->
+    <%- include("./partials/header.ejs") %>
+  <!-- </div> -->
+  <!-- header -->
 
-    <!-- content start -->
-    <!--image slider start here -->
+  <!-- content start -->
+  <!--image slider start here -->
+  <div id="main_container">
     <div class="slider">
       <div class="slides">
         <!--radio btn start here -->
@@ -237,12 +240,16 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!--DISCOVER NOW added above -->
+  <!--DISCOVER NOW added above -->
 
-    <!-- content end -->
-    <%- include("./partials/chat.ejs") %>
-
-    <!-- footer -->
+  
+  <!-- footer -->
+  <div id="blurr1">
     <%- include("./partials/footer.ejs") %>
-      <!-- footer -->
+  </div>
+  <!-- footer -->
+
+  <!-- content end -->
+    <%- include("./partials/chat.ejs") %>
